@@ -1,6 +1,6 @@
 # Google capstone project
-## intro
--
+intro
+
 in this project we are trying to anlyze the data of fitbit health care devices using all the toals i have learnt to improve our company(bella beat) marketing strategy.
 this project was really useful for me as it wasn't really easy like other small projects or assignments i have done through this course or other items and it actually took me some time to finish this project, estimadely it took me like from 11 to 13 hours to finish because by looking at this data it is all numeric all data looks like meta data nothing is organized nothing is grouped no qualitative data that's why it took me more time to understand the data more than analyzing it, so by using critical thinking and analytical thinking i kept looking at the data trying to figure out what can we get from this data what can be helpful and more so however i think it would be really helpful if i was working with a team to even if they doesn't really know anything about data analysis to take their opinions suggestions and share findings with them but after all i have finished this project alone as a kind of a challenge for me.
 we are going to share this project in the forum of 6 steps which are **ask, prepare, process, anlyze, share, and act**
