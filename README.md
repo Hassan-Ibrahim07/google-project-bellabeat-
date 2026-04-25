@@ -28,7 +28,7 @@ ORDER BY hourly_total DESC;`
 also in the start of this step we had checked the data to see if it is good enough that it doesn't have alot of nulls or weird values and after checking the data by using filters in excel and we didn't check the allow nulls buttone in ssms after that we checked if data is like the desc of the data so we used
 `We used =COUNT(UNIQUE(column name))`in excel and `SELECT COUNT(DISTINCT CAST(column name AS VARCHAR(max)))`in sql
 
-**organizing and analyzing**
+*organizing and analyzing*
 
 we started analyzing data and gaining insights by using pivot tables in excel and doing some descriptive analysis to find the average, minimum, and maximum of different variables also we have used the group by and xlookup function a couple of times to extract some data for some specific ids those which are in the weight log info table so we can do some more analysis on them and at last if you take a look at the excel sheet in the link [google project](https://github.com/Hassan-Ibrahim07/google-project-bellabeat-/blob/main/google%20capstone%20project.xlsx)you will find all the data  after the anlayzing step.
 we have for finding only some descriptive analysis to find the average, minimum, and maximum only because i find sql a bit annoying but i am improving by time.
