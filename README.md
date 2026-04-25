@@ -27,7 +27,7 @@ GROUP BY  CAST(id AS NVARCHAR(MAX)),FORMAT([Time], 'yyyy-MM-dd HH:00:00')
 ORDER BY hourly_total DESC;`
 also in the start of this step we had checked the data to see if it is good enough that it doesn't have alot of nulls or weird values and after checking the data by using filters in excel and we didn't check the allow nulls buttone in ssms after that we checked if data is like the desc of the data so we used
 `We used =COUNT(UNIQUE(column name))`in excel and `SELECT COUNT(DISTINCT CAST(column name AS VARCHAR(max)))`in sql
----
+
 **organizing and analyzing**
 
 we started analyzing data and gaining insights by using pivot tables in excel and doing some descriptive analysis to find the average, minimum, and maximum of different variables also we have used the group by and xlookup function a couple of times to extract some data for some specific ids those which are in the weight log info table so we can do some more analysis on them and at last if you take a look at the excel sheet in the link [google project](https://github.com/Hassan-Ibrahim07/google-project-bellabeat-/blob/main/google%20capstone%20project.xlsx)you will find all the data  after the anlayzing step.
@@ -41,12 +41,12 @@ FROM [MyDatabase].[dbo].[heartrate_seconds_merged]
 WHERE [Value] > 0;`
 and here we got the heart rate avg, min, and max per minute
 and also we could use python but i think it was better to stick with excel and sql.
----
+
 *sharing*
 
 after the analyzing steps we could really share this data in alot of ways we could prepare a power point a report or an email but i didnt really share this data with anyone but i am sharing it here so this is where and how i am sharing my data for this project and the last step will be like what would be discussed if i team and were preparing for meating to talk about my final findings so i have prepared my visualization to make the data better understandable because i didnt really understand the realtion ship between the data until i have visualized it.
 for visualizing the data we used tabluea and excel and we customized the visualizaion to not look complicated and to reach the point imediately.
----
+
 *acting*
 
 i feel like this point or step is the most important step because we use all the data and all our ideas and findings to find a relationship and a way to reach our goal and make a data driven decision.
