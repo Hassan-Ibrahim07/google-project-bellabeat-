@@ -6,7 +6,7 @@ this project was really useful for me as it wasn't really easy like other small 
 we are going to share this project in the forum of 6 steps which are **ask, prepare, process, anlyze, share, and act**
 
 *Ask*
--
+
 i didn't really had anyone to ask or to speak about my research questions in my mind with so i tried to understand more about the data by googling and using the case study file so i did some research about the health devices the company and some of the data meanings like mets and bmi how these devices work and how people does really use it what are the most things important things at these devices that makes people buy it, and we are going to show the researshs we have done in the last point of acting upon data.
 ---
 *prepare*
