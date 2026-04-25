@@ -1,16 +1,16 @@
 # Google capstone project
-intro
-------
+## intro
+-
 in this project we are trying to anlyze the data of fitbit health care devices using all the toals i have learnt to improve our company(bella beat) marketing strategy.
 this project was really useful for me as it wasn't really easy like other small projects or assignments i have done through this course or other items and it actually took me some time to finish this project, estimadely it took me like from 11 to 13 hours to finish because by looking at this data it is all numeric all data looks like meta data nothing is organized nothing is grouped no qualitative data that's why it took me more time to understand the data more than analyzing it, so by using critical thinking and analytical thinking i kept looking at the data trying to figure out what can we get from this data what can be helpful and more so however i think it would be really helpful if i was working with a team to even if they doesn't really know anything about data analysis to take their opinions suggestions and share findings with them but after all i have finished this project alone as a kind of a challenge for me.
 we are going to share this project in the forum of 6 steps which are **ask, prepare, process, anlyze, share, and act**
 ---
-__Ask__
+**Ask**
 
 i didn't really had anyone to ask or to speak about my research questions in my mind with so i tried to understand more about the data by googling and using the case study file so i did some research about the health devices the company and some of the data meanings like mets and bmi how these devices work and how people does really use it what are the most things important things at these devices that makes people buy it, and we are going to show the researshs we have done in the last point of acting upon data.
 ---
-__prepare__
-
+**prepare**
+-
 after finishing the first step we started to think about the data we have already, how can we prepare it for analysis which program to use and what is the best way or looks to keep the datain.
 so first we tried to load all the data into excel but some of the data tables didn't get into excel because it was larger than excel capacity and these data were the minutly data specificly so we loaded those into sql after that i did some grouping so the data would be easier for analysis if i loaded it into excel and if we wanted to visualize it and here is the code i used(i used ssms in this project so this is written in tsql)
 `SELECT CAST(Id AS NVARCHAR(MAX)) AS [ID_Clean]
@@ -28,9 +28,9 @@ ORDER BY hourly_total DESC;`
 also in the start of this step we had checked the data to see if it is good enough that it doesn't have alot of nulls or weird values and after checking the data by using filters in excel and we didn't check the allow nulls buttone in ssms after that we checked if data is like the desc of the data so we used
 `We used =COUNT(UNIQUE(column name))`in excel and `SELECT COUNT(DISTINCT CAST(column name AS VARCHAR(max)))`in sql
 ---
-__organizing and analyzing__
-
-we started analyzing data and gaining insights by using pivot tables in excel and doing some descriptive analysis to find the average, minimum, and maximum of different variables also we have used the group by and xlookup function a couple of times to extract some data for some specific ids those which are in the weight log info table so we can do some more analysis on them and at last if you take a look at the excel sheet [google project](https://github.com/Hassan-Ibrahim07/google-project-bellabeat-/blob/main/google%20capstone%20project.xlsx)you will find all the data  after the anlayzing step.
+**organizing and analyzing**
+-
+we started analyzing data and gaining insights by using pivot tables in excel and doing some descriptive analysis to find the average, minimum, and maximum of different variables also we have used the group by and xlookup function a couple of times to extract some data for some specific ids those which are in the weight log info table so we can do some more analysis on them and at last if you take a look at the excel sheet in the link [google project](https://github.com/Hassan-Ibrahim07/google-project-bellabeat-/blob/main/google%20capstone%20project.xlsx)you will find all the data  after the anlayzing step.
 we have for finding only some descriptive analysis to find the average, minimum, and maximum only because i find sql a bit annoying but i am improving by time.
 `SELECT MAX([Steps]) AS max_steps,AVG([Steps]) AS avg_steps, MIN([Steps]) AS minimum_steps
 FROM [MyDatabase].[dbo].[minuteStepsNarrow_merged]
@@ -42,12 +42,12 @@ WHERE [Value] > 0;`
 and here we got the heart rate avg, min, and max per minute
 and also we could use python but i think it was better to stick with excel and sql.
 ---
-__sharing__
+**sharing**
 
 after the analyzing steps we could really share this data in alot of ways we could prepare a power point a report or an email but i didnt really share this data with anyone but i am sharing it here so this is where and how i am sharing my data for this project and the last step will be like what would be discussed if i team and were preparing for meating to talk about my final findings so i have prepared my visualization to make the data better understandable because i didnt really understand the realtion ship between the data until i have visualized it.
 for visualizing the data we used tabluea and excel and we customized the visualizaion to not look complicated and to reach the point imediately.
 ---
-__acting__
+**acting**
 
 i feel like this point or step is the most important step because we use all the data and all our ideas and findings to find a relationship and a way to reach our goal and make a data driven decision.
 so our goal is to create a marketing strategy and here it is:
@@ -74,10 +74,10 @@ our audience in this strategy are people who doesn't do any kind of physical act
 and that with our device monitoring and tech we mentioned earlier we will be helping them getting to the perfect shape.
 
 refrences
-[google project](https://www.erieniagaraahec.org/post/healthcare-wearable-devices)
-[google project](https://pmc.ncbi.nlm.nih.gov/articles/PMC4737495/)
-[google project](https://fitbit.google/enterprise/blog/the-power-of-brand/)
-[google project](https://www.researchgate.net/publication/229736091_Too_fat_to_exercise_Obesity_as_a_barrier_to_physical_activity)
-[google project](https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/health-risks)
+[1](https://www.erieniagaraahec.org/post/healthcare-wearable-devices)
+[2](https://pmc.ncbi.nlm.nih.gov/articles/PMC4737495/)
+[3](https://fitbit.google/enterprise/blog/the-power-of-brand/)
+[4](https://www.researchgate.net/publication/229736091_Too_fat_to_exercise_Obesity_as_a_barrier_to_physical_activity)
+[5](https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/health-risks)
 
 
