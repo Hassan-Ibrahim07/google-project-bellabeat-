@@ -1,4 +1,4 @@
-# Google capstone project#
+# Google capstone project
 ## intro
 
 in this project we are trying to anlyze the data of fitbit health care devices using all the toals i have learnt to improve our company(bella beat) marketing strategy.
